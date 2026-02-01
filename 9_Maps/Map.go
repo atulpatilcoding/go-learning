@@ -56,4 +56,6 @@ func main() {
 	// m1 := map[string]int{"phones": 5, "Prise": 10}
 	// m2 := map[string]int{"phones": 5, "Prise": 10}
 	// fmt.Println(maps.Equal(m1, m2)) //in maps package Equal function is used to compare two maps
+
+	//New line added 
 }
