@@ -34,16 +34,16 @@ func main() {
 	fmt.Println(len(m), len(n))
 
 	//------------------------2-----------------------
-	//defalt method in go to check if key exists in map or not and get its value
+	//default method in go to check if key exists in map or not and get its value
 
 	// m := map[string]int{
 	// 	"a": 25,
 	// 	"b": 30,
 	// }
 	// //ok is used to check if key exists in map
-	// vla,ok := m["a"] // here we are chacking if key "a" exists in map m or not
+	// val,ok := m["a"] // here we are checking if key "a" exists in map m or not
 	// //  if exists then return true in ok and get its value in val if not ok will be false and store 0 in val
-	// fmt.Println(vla)
+	// fmt.Println(val)
 	// if ok {
 	// 	fmt.Println("All ok")
 	// } else {
@@ -53,9 +53,7 @@ func main() {
 	//------------------------3-----------------------
 	//
 
-	// m1 := map[string]int{"phones": 5, "Prise": 10}
-	// m2 := map[string]int{"phones": 5, "Prise": 10}
+	// m1 := map[string]int{"phones": 5, "Price": 10}
+	// m2 := map[string]int{"phones": 5, "Price": 10}
 	// fmt.Println(maps.Equal(m1, m2)) //in maps package Equal function is used to compare two maps
-
-	//New line added 
 }
