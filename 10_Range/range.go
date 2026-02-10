@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 func main() {
-//range is used  for iterating over elements in arrays , slices ,maps ,strings and channels
+	//range is used  for iterating over elements in arrays , slices ,maps ,strings and channels
 
-//nums := []int{1, 2, 3, 4, 5, 6, 7} //slice created
+	//nums := []int{1, 2, 3, 4, 5, 6, 7} //slice created
 
 	//usung normal for loop
 	// for i := 0; i < len(nums); i++ {
