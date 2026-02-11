@@ -9,8 +9,8 @@ func add(a int, b int) int {
 	return a + b
 }
 
-func getLanguage() (string, string, string) { // if you want to return multiple values
-	return "Go", "Java", "C++"
+func getLanguage() (string, string, bool) { // if you want to return multiple values
+	return "Go", "Java", true
 }
 func main() {
 
@@ -23,4 +23,11 @@ func main() {
 	lang1, lang2, lang3 := getLanguage()
 	fmt.Println(lang1, lang2, lang3)
 	fmt.Println(getLanguage()) // you can also print like this but it will print in the form of tuple
+	//--------------------------------
+
+	// Anonymous function
+	func() {
+		fmt.Println("This is an anonymous function")
+	}() // you have to call the function immediately after defining it
+
 }
