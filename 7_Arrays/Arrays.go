@@ -46,5 +46,7 @@ func main() {
 	arr2 := [...]int{9, 7, 6, 4, 5, 3, 2, 4}
 	fmt.Println(arr2)
 	fmt.Println(len(arr2))
-
+	//to update the value of array
+	arr2[0] = 10
+	fmt.Println(arr2)
 }
