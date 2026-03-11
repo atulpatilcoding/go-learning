@@ -9,6 +9,10 @@ func add(a int, b int) int {
 	return a + b
 }
 
+
+//in multiple conditionswe can return multiple values from a function in Go.
+//in go first value is the return value and second value is the error value. we can also return a boolean value to check if there is an error or not. for example, if we want to get the language of a person we can return the language as a string and the error as a string and the boolean value to check if there is an error or not.
+
 func getLanguage() (string, string, bool) { // if you want to return multiple values
 	return "Go", "Java", true
 }
