@@ -13,10 +13,9 @@ func main() {
 	// }
 
 	//using range in for loop
-	// for i, num := range nums { //here "num" is variable that retuns value at tha index "i", range is key word that is itreting ober the "nums" slice
+	// for i, num := range nums { //here "num" is variable that retuns value at tha index "i", range is key word that is itreting over the "nums" slice
 	// 	fmt.Println(i, num)
 	// }
-
 	//-----------------------1-----------------------
 	//range kyword using on maps
 
