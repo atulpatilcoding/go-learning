@@ -14,10 +14,11 @@ func sum(nums ...int) int {
 }
 
 func main() {
-		fmt.Println(1, 2, 3, 4, 5,"Hellow")//this line is aloso repesent a variadic function, where the fmt.Println function can accept any number of arguments of any type.
+	fmt.Println(1, 2, 3, 4, 5, "Hello") //this line is aloso represent a variadic function, where the fmt.Println function can accept any number of arguments of any type.
 	result := sum()
 	fmt.Println(result)
 }
-//the varuadic function can be called with any number of arguments, including zero. 
+
+//the variadic function can be called with any number of arguments, including zero.
 // In this example,the sum function takes a variable number of integer arguments and returns their total.
 // The nums parameter is treated as a slice of integers within the function, allowing us to iterate over it and calculate the sum.
